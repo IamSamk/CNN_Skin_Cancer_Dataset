@@ -90,7 +90,7 @@ from PIL import Image
 # Load model
 model = models.resnet34(pretrained=False)
 model.fc = torch.nn.Linear(model.fc.in_features, 1)
-model.load_state_dict(torch.load(r"C:\Users\Samarth Kadam\Documents\Skin_cancer_model.pth", map_location='cpu'))
+model.load_state_dict(torch.load(r"FILE_PATH\Skin_cancer_model.pth", map_location='cpu'))
 model.eval()
 
 # Define transform (must match training)
