@@ -1,7 +1,0 @@
-# Ignore Python caches and venv
-__pycache__/
-*.pyc
-.env
-.env.local
-# Keep dataset and model — user asked to upload everything
-
