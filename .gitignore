@@ -1,0 +1,15 @@
+# Ignore Python caches and venv
+__pycache__/
+*.pyc
+.env
+.env.local
+# Ignore dataset partitions if large
+train/
+test/
+# Model weights
+*.pth
+# Git LFS-managed files
+*.jpg
+*.jpeg
+*.png
+
