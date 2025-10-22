@@ -3,13 +3,5 @@ __pycache__/
 *.pyc
 .env
 .env.local
-# Ignore dataset partitions if large
-train/
-test/
-# Model weights
-*.pth
-# Git LFS-managed files
-*.jpg
-*.jpeg
-*.png
+# Keep dataset and model — user asked to upload everything
 
